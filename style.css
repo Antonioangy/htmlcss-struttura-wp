@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 80%;
+    margin: auto;
+    
+
+}
+/* CONTAINER SUPERIORE */
+.titolo {
+    background-color: violet;
+    height: 80px;
+    width: auto;
+    margin-top: 50px;
+    
+}
+/* CONTAINER CENTRALE SUPERIORE */
+.centraletop {
+    background-color: yellow;
+    height: 300px;
+    width: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* CONTAINER CENTRALE INFERIORE */
+#backgroundcontainer{
+    background-color: blue;
+    height: 300px;
+    width: auto;
+}
+
+.centralebot {
+    background-color:lightblue;
+    height: 80px;
+    margin-block-end:;
+    width: auto;
+    
+}
