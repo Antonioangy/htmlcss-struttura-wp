@@ -52,35 +52,50 @@ body {
 
 }
 
+.sopra {
+    background-color:lightblue;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+.clearfix::after {  
+    content: "";
+    display: table;
+    clear: both;
+
+}
 
 /* 4 container */
+    .sopra{
+        
+        height: 50px;
+        margin-bottom: 20px;
+    }
 
-
-
-
-
-
-
-
-
-.sopra{
+    .sinistra {
+    height: 310px;
+    width: 25%;   
     
-    height: 50px;
-    margin-bottom: 20px;
-}
+    }
 
-.sinistra {
-  height: 310px;
-  width: 30%;   
-   
-}
+    .centrale {
+        height: 310px;
+        width: 45.75%;
+        margin-left: 20px;
+        margin-right: 20px;
+    
+    
+    }
 
+    .destra {
+        height: 310px;
+        width: 25%;   
+        
+    }
 
-
-
-
-  
-
+/* fine 4 container */
 
 /* FOOTER */
 .inferiore { 
